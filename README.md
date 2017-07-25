@@ -55,3 +55,12 @@ The project uses a react based catalog component to render the products catalog.
 Required props for catalog componets are :<br>
 Path to the backend APi ==> backendApi: PropTypes.string.isRequired<br>
 Path to the product images ==> productImagePath: PropTypes.string.isRequired
+
+## Docker Support
+
+### Create Image
+### `docker build -t syedbrand1fe:1.0 .`
+
+### Create Container
+### `docker run -p 4001:5000 --name syedbrand1fe syedbrand1fe:1.0`
+
